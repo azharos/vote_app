@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.17",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^44.1.0",
+        "@ckeditor/ckeditor5-react": "^9.4.0",
+        "@inertiajs/react": "^2.0.0",
+        "ckeditor5": "^44.1.0",
+        "js-file-download": "^0.4.12",
+        "react": "^19.0.0",
+        "react-date-range": "^2.0.1",
+        "react-dom": "^19.0.0",
+        "react-select": "^5.9.0",
+        "react-toastify": "^11.0.2",
+        "react-tooltip": "^5.28.0",
+        "swiper": "^11.2.0"
+    }
+}

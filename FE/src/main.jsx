@@ -13,6 +13,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 
 import Login from "./pages/Login";
+import Candidate from "./pages/Candidate";
+import Vote from "./pages/Vote";
+import Success from "./pages/Success";
 
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
@@ -25,6 +28,18 @@ createRoot(document.getElementById("root")).render(
 				{
 					path: "/login",
 					element: <Login />,
+				},
+				{
+					path: "/candidate",
+					element: <Candidate />,
+				},
+				{
+					path: "/vote",
+					element: <Vote />,
+				},
+				{
+					path: "/success",
+					element: <Success />,
 				},
 			])}
 		/>
